@@ -1,0 +1,117 @@
+.clear:after
+      {
+        content:"";
+        display: table;
+        clear:both;
+      }
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2
+        {
+              font-family: cursive;
+        }
+
+h1
+        {
+                color:navy;
+                font-size: :40px;
+                /*  font-family: Arial;*/
+        }
+h2
+        {
+                color:red;
+                font-size: 24px;
+                font-family: Cursive;
+        }
+.p1
+        {
+
+                font-size: 27px;
+                font-style: italic;
+                color:black;
+        }
+.p2
+        {
+
+                font-size: 27px;
+                font-style:oblique;
+                color:blue;
+
+        }
+.p3
+        {
+                  font-size: 27px;
+                  font-style: normal;
+                  color:green;
+        }
+.id1
+        {
+                  font-size: 30px;
+
+        }
+.level
+        {
+                /*  width: 1140px;*/
+                    /*margin-left: auto;
+                    margin-right: auto;*/
+
+        }
+.l1
+        {
+                  background-color: aqua;
+                width:100%;
+                float: left;
+
+        }
+.l4
+        {
+                  background-color: gold;
+                width: 25%;
+
+                float: left;
+
+        }
+.img
+        {
+                    /*margin-left: 30px;*/
+                    /* margin-right: auto; */
+                    width: 100%;
+                    padding-bottom: 15px;
+        }
+.img img{
+  width: 100%;
+}
+.main
+        {
+                    margin-left: 225px;
+                    margin-right: auto;
+        }
+.main h1{
+  float: left;
+}
+.main h3{
+  float: right;
+}
+.l3
+        {
+                  background-color: antiquewhite;
+                  padding-left: 15px;
+                  padding-bottom: 15px;
+                  padding-top: 15px;
+        }
+.l2
+        {
+                  background-color: red;
+                  padding-left: 15px;
+                  padding-bottom: 15px;
+                  padding-top: 15px;
+        }
+.dmain
+        {
+                      padding-left: 15px;
+        }
