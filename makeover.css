@@ -4,7 +4,11 @@
         display: table;
         clear:both;
       }
-
+*{
+  /*margin: 0;
+  padding: 0;*/
+  box-sizing: border-box;    /*maintenence helping */
+}
 
 
 h1,h2
@@ -55,6 +59,10 @@ h2
                   width: 1140px;
                     margin-left: auto;
                     margin-right: auto;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+
+                    /* it has anathore shortcut like ---->>> margin: top right bottom left; <<-----    ex: --->>margin:30px auto 30px auto ; */
 
         }
 .l1
@@ -62,6 +70,10 @@ h2
                   background-color: aqua;
                 width:75%;
                 float: left;
+                border-top: 3px solid;
+                border-left: 3px solid;
+                border-right: 3px solid
+
 
         }
 .l4
@@ -69,16 +81,21 @@ h2
                   background-color: gold;
                 width: 25%;
                 float: left;
+                padding-left: 100px;
+                border-top: 3px solid;
+                border-right: 3px solid;
+                border-bottom: 3px solid;
         }
 .img
         {
                     margin-left:0px;
                   /*  margin-right: auto;*/
                     padding-bottom: 15px;
+
         }
 .main
         {
-                    margin-left: 225px;
+                    margin-left: 200px;
                     margin-right: auto;
         }
 .l3
@@ -87,6 +104,10 @@ h2
                   padding-left: 15px;
                   padding-bottom: 15px;
                   padding-top: 15px;
+                  border-top: 3px solid;
+                  border-left: 3px solid;
+                  border-right: 3px solid;
+                  border-bottom: 3px solid;
         }
 .l2
         {
@@ -94,6 +115,9 @@ h2
                   padding-left: 15px;
                   padding-bottom: 15px;
                   padding-top: 15px;
+                  border-top: 3px solid;
+                  border-left: 3px solid;
+                  border-right: 3px solid;
 
         }
 .dmain
@@ -110,4 +134,8 @@ h2
         {
           margin-right: 30px;
           width: 100%;
+        }
+.l4 l4
+        {
+          padding-left: 300px;
         }
