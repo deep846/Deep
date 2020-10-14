@@ -19,7 +19,7 @@ h1,h2
 h1
         {
                 color:navy;
-                font-size: :40px;
+                font-size: 40px;
                 /*  font-family: Arial;*/
         }
 h2
@@ -28,6 +28,9 @@ h2
                 font-size: 24px;
                 font-family: Cursive;
         }
+h3{
+        font-size: 40px;
+}
 .p1
         {
 
@@ -40,7 +43,7 @@ h2
 
                 font-size: 27px;
                 font-style:oblique;
-                color:blue;
+                color:paleturquoise;
 
         }
 .p3
@@ -111,7 +114,7 @@ h2
         }
 .l2
         {
-                  background-color: red;
+                  background-color: grey;
                   padding-left: 15px;
                   padding-bottom: 15px;
                   padding-top: 15px;
@@ -139,3 +142,8 @@ h2
         {
           padding-left: 300px;
         }
+
+p{
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
