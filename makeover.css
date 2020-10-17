@@ -11,9 +11,9 @@
 }
 
 
-h1,h2
+h1
         {
-              font-family: cursive;
+              font-family: verdana;
         }
 
 h1
@@ -54,7 +54,7 @@ h3{
         }
 .id1
         {
-                  font-size: 30px;
+                  font-size: 20px;
 
         }
 .level
@@ -70,8 +70,9 @@ h3{
         }
 .l1
         {
-                  background-color: aqua;
+                  background-color: #a56cc1;
                 width:75%;
+		height: 850px;
                 float: left;
                 border-top: 3px solid;
                 border-left: 3px solid;
@@ -81,14 +82,28 @@ h3{
         }
 .l4
         {
-                  background-color: gold;
+                  background-color: #3d5af1; 
                 width: 25%;
-                float: left;
-                padding-left: 100px;
+		height:50px;
+                float: right; 
+                padding-left: 80px;
                 border-top: 3px solid;
                 border-right: 3px solid;
                 border-bottom: 3px solid;
         }
+.noticeboard
+	{
+		width: 25%;
+		background-color: #e2f3f5;
+		float: right;
+                height:800px;
+		border-right: 3px solid;
+		
+		
+
+	}
+	
+
 .img
         {
                     margin-left:0px;
@@ -97,9 +112,18 @@ h3{
 
         }
 .main
-        {
-                    margin-left: 200px;
-                    margin-right: auto;
+        { 
+                  
+		  background-color: aqua;
+		  border-top: 3px solid;
+                  border-left: 3px solid;
+                  border-right: 3px solid;
+		  width: 100%;
+			padding-left: 15px;
+                  padding-bottom: 15px;
+                  padding-top: 15px;
+			float: left;
+		text-align: center;
         }
 .l3
         {
@@ -146,4 +170,4 @@ h3{
 p{
         font-size: 18px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-}
+}  
